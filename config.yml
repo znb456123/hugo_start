@@ -1,0 +1,34 @@
+baseURL: ""
+languageCode: en-us
+title: Bincentive
+theme: Papermod 
+
+params: 
+  homeInfoParams:
+    Title: "Hello strangers"
+    Content: welcome.
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com/"
+
+  cover:
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
